@@ -1,0 +1,7 @@
+05:16:10.496 [main] INFO  Academy.ValidateTitle - launching url
+05:16:10.506 [main] DEBUG Academy.ValidateTitle - set the sleep for 10000 mili sec
+05:16:20.507 [main] INFO  Academy.ValidateTitle - sleep completed
+05:16:22.377 [main] DEBUG Academy.ValidateTitle - if popup window shown..click no thanks
+05:16:23.661 [main] INFO  Academy.ValidateTitle - clicked on popup windpow...no thanks 
+05:16:30.839 [main] INFO  Academy.ValidateTitle - clicked on video...
+05:17:08.603 [main] INFO  Academy.ValidateTitle - driver closed

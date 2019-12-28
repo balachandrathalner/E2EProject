@@ -5,11 +5,23 @@
     <listener class-name="Academy.Listeners"/>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
+  <test thread-count="5" verbose="0" name="Login Validation(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="navigationHomepage"/>
+          <include name="intialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- Login Validation(failed) -->
   <test thread-count="5" verbose="0" name="Validation Title(failed)">
     <classes>
       <class name="Academy.ValidateTitle">
         <methods>
           <include name="navigationHomepage"/>
+          <include name="videos"/>
           <include name="intialize"/>
           <include name="tearDown"/>
         </methods>

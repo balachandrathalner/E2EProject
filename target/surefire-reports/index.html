@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,55 +91,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage">navigationHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage">navigationHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage">navigationHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.ValidateTitle" hash-for-method="navigationHomepage">navigationHomepage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.VideoGallery_Test" hash-for-method="vidiogallery">vidiogallery</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage(hkdjabashoc@gmail.com, ihiw89437)">navigationHomepage(hkdjabashoc@gmail.com, ihiw89437)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage(dsgvsgabc@gmail.com, 38o2ky)">navigationHomepage(dsgvsgabc@gmail.com, 38o2ky)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.HomePage" hash-for-method="navigationHomepage(abc@gmail.com, 65656)">navigationHomepage(abc@gmail.com, 65656)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.ValidateTitle" hash-for-method="videos">videos</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Academy.VideoGallery_Test" hash-for-method="vidiogallery">vidiogallery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -151,9 +142,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">Academy.ValidateTitle</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -162,17 +153,74 @@
                   <a name="navigationHomepage">
                   </a> <!-- navigationHomepage -->
                   <span class="method-name">navigationHomepage</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at Academy.ValidateTitle.navigationHomepage(ValidateTitle.java:49)
-... Removed 33 stack frames
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.ValidateTitle.intialize(ValidateTitle.java:26)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videos">
+                  </a> <!-- videos -->
+                  <span class="method-name">videos</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.ValidateTitle.intialize(ValidateTitle.java:26)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
+              <span class="class-name">Academy.HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationHomepage">
+                  </a> <!-- navigationHomepage -->
+                  <span class="method-name">navigationHomepage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.HomePage.intialize(HomePage.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationHomepage">
+                  </a> <!-- navigationHomepage -->
+                  <span class="method-name">navigationHomepage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.HomePage.intialize(HomePage.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigationHomepage">
+                  </a> <!-- navigationHomepage -->
+                  <span class="method-name">navigationHomepage</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.HomePage.intialize(HomePage.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">Academy.VideoGallery_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -181,63 +229,15 @@
                   <a name="vidiogallery">
                   </a> <!-- vidiogallery -->
                   <span class="method-name">vidiogallery</span>
-                  <div class="stack-trace">junit.framework.ComparisonFailure: expected:&lt;...&gt; but was:&lt;...1&gt;
-	at junit.framework.Assert.assertEquals(Assert.java:81)
-	at junit.framework.Assert.assertEquals(Assert.java:87)
-	at Academy.VideoGallery_Test.vidiogallery(VideoGallery_Test.java:80)
-... Removed 29 stack frames
+                  <div class="stack-trace">java.lang.NullPointerException
+	at resources.base.intializeDriver(base.java:51)
+	at Academy.VideoGallery_Test.intialize(VideoGallery_Test.java:29)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Academy.ValidateTitle</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="videos">
-                  </a> <!-- videos -->
-                  <span class="method-name">videos</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Academy.HomePage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigationHomepage(hkdjabashoc@gmail.com, ihiw89437)">
-                  </a> <!-- navigationHomepage(hkdjabashoc@gmail.com, ihiw89437) -->
-                  <span class="method-name">navigationHomepage</span>
-                  <span class="parameters">(hkdjabashoc@gmail.com, ihiw89437)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigationHomepage(dsgvsgabc@gmail.com, 38o2ky)">
-                  </a> <!-- navigationHomepage(dsgvsgabc@gmail.com, 38o2ky) -->
-                  <span class="method-name">navigationHomepage</span>
-                  <span class="parameters">(dsgvsgabc@gmail.com, 38o2ky)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="navigationHomepage(abc@gmail.com, 65656)">
-                  </a> <!-- navigationHomepage(abc@gmail.com, 65656) -->
-                  <span class="method-name">navigationHomepage</span>
-                  <span class="parameters">(abc@gmail.com, 65656)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -312,34 +312,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'vidiogallery')
-data.setCell(0, 2, 'Academy.VideoGallery_Test')
-data.setCell(0, 3, 57094);
+data.setCell(0, 1, 'navigationHomepage')
+data.setCell(0, 2, 'Academy.HomePage')
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'navigationHomepage')
 data.setCell(1, 2, 'Academy.HomePage')
-data.setCell(1, 3, 35653);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'navigationHomepage')
 data.setCell(2, 2, 'Academy.HomePage')
-data.setCell(2, 3, 30886);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'navigationHomepage')
-data.setCell(3, 2, 'Academy.HomePage')
-data.setCell(3, 3, 18727);
+data.setCell(3, 2, 'Academy.ValidateTitle')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'videos')
 data.setCell(4, 2, 'Academy.ValidateTitle')
-data.setCell(4, 3, 15363);
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'navigationHomepage')
-data.setCell(5, 2, 'Academy.ValidateTitle')
-data.setCell(5, 3, 565);
+data.setCell(5, 1, 'vidiogallery')
+data.setCell(5, 2, 'Academy.VideoGallery_Test')
+data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -366,64 +366,63 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigationHomepage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigationHomepage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">navigationHomepage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.ValidateTitle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">navigationHomepage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">videos</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.VideoGallery_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">vidiogallery</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Academy.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">intialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">navigationHomepage(abc@gmail.com, 65656)</span>
-                <span class="method-start">14750 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">navigationHomepage(dsgvsgabc@gmail.com, 38o2ky)</span>
-                <span class="method-start">50406 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">navigationHomepage(hkdjabashoc@gmail.com, ihiw89437)</span>
-                <span class="method-start">81293 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">100026 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.ValidateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">intialize</span>
-                <span class="method-start">100585 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">navigationHomepage</span>
-                <span class="method-start">120391 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">videos</span>
-                <span class="method-start">123770 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">139134 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-name">intialize</span>
+                <span class="method-start">316 ms</span>
+              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Academy.VideoGallery_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">intialize</span>
-                <span class="method-start">139525 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">vidiogallery</span>
-                <span class="method-start">153562 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">211463 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-name">intialize</span>
+                <span class="method-start">373 ms</span>
+              </div> <!-- configuration-test before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

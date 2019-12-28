@@ -26,7 +26,11 @@ public class base {
 		
 		prop.load(fis);
 		
-		String browserName=prop.getProperty("browser");
+		//String browserName=prop.getProperty("browser");
+		
+		//maven commond to run browser : mvn test -Dbrowser=chrome
+		
+		String browserName=System.getProperty("browser");
 		
 		System.out.println(browserName);
 		

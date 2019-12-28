@@ -1,12 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 219.822 s <<< FAILURE! - in TestSuite
-Academy.ValidateTitle.navigationHomepage  Time elapsed: 3.375 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at Academy.ValidateTitle.navigationHomepage(ValidateTitle.java:49)
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 9, Time elapsed: 5.85 s <<< FAILURE! - in TestSuite
+Academy.HomePage.intialize  Time elapsed: 3.612 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.HomePage.intialize(HomePage.java:24)
 
-Academy.VideoGallery_Test.vidiogallery  Time elapsed: 57.9 s  <<< FAILURE!
-junit.framework.ComparisonFailure: expected:<...> but was:<...1>
-	at Academy.VideoGallery_Test.vidiogallery(VideoGallery_Test.java:80)
+Academy.ValidateTitle.intialize  Time elapsed: 3.867 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.ValidateTitle.intialize(ValidateTitle.java:26)
+
+Academy.VideoGallery_Test.intialize  Time elapsed: 3.936 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.VideoGallery_Test.intialize(VideoGallery_Test.java:29)
 
