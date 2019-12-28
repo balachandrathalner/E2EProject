@@ -19,7 +19,7 @@ public class LandingPage {
 	private WebElement contact;
 	
 	@FindBy(css="[class='text-center'] a")
-	WebElement viewcourse;
+	private WebElement viewcourse;
 	
 	@FindBy(xpath="//*[@class='nav navbar-nav navbar-right'] //li[3]/a")
 	WebElement videos;

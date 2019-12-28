@@ -1,7 +1,7 @@
-05:16:10.496 [main] INFO  Academy.ValidateTitle - launching url
-05:16:10.506 [main] DEBUG Academy.ValidateTitle - set the sleep for 10000 mili sec
-05:16:20.507 [main] INFO  Academy.ValidateTitle - sleep completed
-05:16:22.377 [main] DEBUG Academy.ValidateTitle - if popup window shown..click no thanks
-05:16:23.661 [main] INFO  Academy.ValidateTitle - clicked on popup windpow...no thanks 
-05:16:30.839 [main] INFO  Academy.ValidateTitle - clicked on video...
-05:17:08.603 [main] INFO  Academy.ValidateTitle - driver closed
+16:33:38.131 [main] INFO  Academy.ValidateTitle - actual and expected are matched
+16:33:38.526 [main] INFO  Academy.ValidateTitle - contact is displayed
+16:33:52.354 [main] INFO  Academy.ValidateTitle - clicked on videos....
+16:33:52.864 [main] INFO  Academy.ValidateTitle - driver object is closed
+16:33:58.559 [main] INFO  Academy.ValidateTitle - intializing driver
+16:34:04.642 [main] INFO  Academy.ValidateTitle - launching url
+16:34:04.646 [main] DEBUG Academy.ValidateTitle - set the sleep for 10000 mili sec

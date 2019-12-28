@@ -9,10 +9,11 @@ public class VideoGallery {
 
 	public WebDriver driver;
 	@FindBy(xpath="//*[@class='title']/div[2]/div/div")
-	WebElement videogallery;
+	private WebElement videogallery;
 	
 	@FindBy(xpath="(//*[@class='col-sm-3'])[2]/h3")
-	WebElement about;
+	private WebElement about;
+	
 	public VideoGallery(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);

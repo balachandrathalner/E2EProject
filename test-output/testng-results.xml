@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="236589" started-at="2019-12-27T08:59:39Z" finished-at="2019-12-27T09:03:35Z">
+  <suite name="Default suite" duration-ms="29911" started-at="2019-12-28T10:59:04Z" finished-at="2019-12-28T10:59:33Z">
     <groups>
     </groups>
-    <test name="Login Validation" duration-ms="98114" started-at="2019-12-27T08:59:39Z" finished-at="2019-12-27T09:01:17Z">
-      <class name="Academy.HomePage">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.HomePage@5876a9af]" name="intialize" is-config="true" duration-ms="12483" started-at="2019-12-27T08:59:39Z" finished-at="2019-12-27T08:59:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialize -->
-        <test-method status="PASS" signature="navigationHomepage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5876a9af]" name="navigationHomepage" duration-ms="35046" started-at="2019-12-27T08:59:51Z" data-provider="getdata" finished-at="2019-12-27T09:00:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[65656]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationHomepage -->
-        <test-method status="PASS" signature="navigationHomepage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5876a9af]" name="navigationHomepage" duration-ms="30418" started-at="2019-12-27T09:00:26Z" data-provider="getdata" finished-at="2019-12-27T09:00:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dsgvsgabc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[38o2ky]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationHomepage -->
-        <test-method status="PASS" signature="navigationHomepage(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@5876a9af]" name="navigationHomepage" duration-ms="19463" started-at="2019-12-27T09:00:57Z" data-provider="getdata" finished-at="2019-12-27T09:01:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hkdjabashoc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ihiw89437]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigationHomepage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@5876a9af]" name="tearDown" is-config="true" duration-ms="604" started-at="2019-12-27T09:01:16Z" finished-at="2019-12-27T09:01:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.HomePage -->
-    </test> <!-- Login Validation -->
-    <test name="Validation Title" duration-ms="52538" started-at="2019-12-27T09:01:17Z" finished-at="2019-12-27T09:02:10Z">
+    <test name="Default test" duration-ms="29911" started-at="2019-12-28T10:59:04Z" finished-at="2019-12-28T10:59:33Z">
       <class name="Academy.ValidateTitle">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.ValidateTitle@7f3b84b8]" name="intialize" is-config="true" duration-ms="20555" started-at="2019-12-27T09:01:17Z" finished-at="2019-12-27T09:01:38Z">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.ValidateTitle@294425a7]" name="intialize" is-config="true" duration-ms="15123" started-at="2019-12-28T10:59:04Z" finished-at="2019-12-28T10:59:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method status="FAIL" signature="navigationHomepage()[pri:0, instance:Academy.ValidateTitle@7f3b84b8]" name="navigationHomepage" duration-ms="4533" started-at="2019-12-27T09:01:38Z" finished-at="2019-12-27T09:01:42Z">
+        <test-method status="FAIL" signature="navigationHomepage()[pri:0, instance:Academy.ValidateTitle@294425a7]" name="navigationHomepage" duration-ms="639" started-at="2019-12-28T10:59:19Z" finished-at="2019-12-28T10:59:19Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -82,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at Academy.ValidateTitle.navigationHomepage(ValidateTitle.java:49)
+at Academy.ValidateTitle.navigationHomepage(ValidateTitle.java:50)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,68 +54,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigationHomepage -->
-        <test-method status="PASS" signature="videos()[pri:1, instance:Academy.ValidateTitle@7f3b84b8]" name="videos" duration-ms="19732" started-at="2019-12-27T09:01:49Z" finished-at="2019-12-27T09:02:09Z">
+        <test-method status="PASS" signature="videos()[pri:1, instance:Academy.ValidateTitle@294425a7]" name="videos" duration-ms="13622" started-at="2019-12-28T10:59:19Z" finished-at="2019-12-28T10:59:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videos -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateTitle@7f3b84b8]" name="tearDown" is-config="true" duration-ms="977" started-at="2019-12-27T09:02:09Z" finished-at="2019-12-27T09:02:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateTitle@294425a7]" name="tearDown" is-config="true" duration-ms="432" started-at="2019-12-28T10:59:33Z" finished-at="2019-12-28T10:59:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Academy.ValidateTitle -->
-    </test> <!-- Validation Title -->
-    <test name="Video gallery test" duration-ms="85557" started-at="2019-12-27T09:02:10Z" finished-at="2019-12-27T09:03:35Z">
-      <class name="Academy.VideoGallery_Test">
-        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.VideoGallery_Test@4550bb58]" name="intialize" is-config="true" duration-ms="17343" started-at="2019-12-27T09:02:10Z" finished-at="2019-12-27T09:02:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intialize -->
-        <test-method status="FAIL" signature="vidiogallery()[pri:0, instance:Academy.VideoGallery_Test@4550bb58]" name="vidiogallery" duration-ms="64331" started-at="2019-12-27T09:02:27Z" finished-at="2019-12-27T09:03:31Z">
-          <exception class="junit.framework.ComparisonFailure">
-            <message>
-              <![CDATA[expected:<...> but was:<...1>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[junit.framework.ComparisonFailure: expected:<...> but was:<...1>
-at junit.framework.Assert.assertEquals(Assert.java:81)
-at junit.framework.Assert.assertEquals(Assert.java:87)
-at Academy.VideoGallery_Test.vidiogallery(VideoGallery_Test.java:80)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- junit.framework.ComparisonFailure -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- vidiogallery -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.VideoGallery_Test@4550bb58]" name="tearDown" is-config="true" duration-ms="1392" started-at="2019-12-27T09:03:34Z" finished-at="2019-12-27T09:03:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Academy.VideoGallery_Test -->
-    </test> <!-- Video gallery test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class base {
@@ -22,7 +23,8 @@ public class base {
 		
 		prop=new Properties();
 		
-		FileInputStream fis=new FileInputStream("C:\\Users\\Talaneru\\E2EProject\\src\\main\\java\\resources\\data.properties");
+		String path=System.getProperty("user.dir");
+		FileInputStream fis=new FileInputStream(path+"\\src\\main\\java\\resources\\data.properties");
 		
 		prop.load(fis);
 		
@@ -34,15 +36,20 @@ public class base {
 		
 		System.out.println(browserName);
 		
-		if(browserName.equalsIgnoreCase("chrome")) {
+		if(browserName.contains("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver", "E:\\software\\chrome_driver\\chromedriver.exe");
-			driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", path+"\\src\\main\\java\\resources\\chromedriver.exe");
 			
+			ChromeOptions options=new ChromeOptions();
+			if(browserName.contains("headless")) {
+			
+				options.addArguments("headless");
+			}
+			driver = new ChromeDriver(options);
 		}
 		else if(browserName.equalsIgnoreCase("firefox")) {
 			
-			System.setProperty("webdriver.gecko.driver", "E:\\software\\gecko_driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", path+"\\src\\main\\java\\resources\\geckodriver.exe");
 			driver=new FirefoxDriver();
 		}
 		else if(browserName.equalsIgnoreCase("IE")) {
