@@ -77,7 +77,7 @@ log.info("intializing driver");
 	
 	Assert.assertTrue(vg.getVideogallery().isDisplayed());
 
-	Assert.assertEquals(vg.getAbout().getText(), "ABOUT US1");
+	Assert.assertEquals(vg.getAbout().getText(), "ABOUT US");
 
 	}
 		

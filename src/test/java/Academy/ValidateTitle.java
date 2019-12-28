@@ -17,6 +17,8 @@ import resources.base;
 
 public class ValidateTitle extends base {
 	
+	LandingPage lp;
+	
 	private static Logger log=LogManager.getLogger(ValidateTitle.class.getName());
 	
 	@BeforeTest
@@ -35,7 +37,8 @@ public class ValidateTitle extends base {
 	public void navigationHomepage() throws IOException  {
 		
 		
-		LandingPage lp=new LandingPage(driver);
+		lp=new LandingPage(driver);
+		
 		log.debug("will comparing actual and expected");
 		
 		String actual=lp.getTitle().getText();
@@ -54,7 +57,7 @@ public class ValidateTitle extends base {
 	
 	@Test(priority=1)
 	public void videos() throws InterruptedException {
-		LandingPage lps=new LandingPage(driver);
+		
 
 		Thread.sleep(3000);
 		
@@ -62,7 +65,7 @@ public class ValidateTitle extends base {
 			driver.findElement(By.xpath("//*[text()='NO THANKS']")).click();
 
 		
-				lps.getVideos().click();
+				lp.getVideos().click();
 				log.info("clicked on videos....");
 		}
 			

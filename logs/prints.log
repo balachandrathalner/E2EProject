@@ -1,5 +1,4 @@
-16:34:14.648 [main] INFO  Academy.ValidateTitle - sleep completed
-16:34:14.882 [main] DEBUG Academy.ValidateTitle - if popup window shown..click no thanks
-16:34:15.326 [main] INFO  Academy.ValidateTitle - clicked on popup windpow...no thanks 
-16:34:18.073 [main] INFO  Academy.ValidateTitle - clicked on video...
-16:34:49.761 [main] INFO  Academy.ValidateTitle - driver closed
+18:58:51.339 [TestNG-tests-1] INFO  Academy.ValidateTitle - url is invoked
+18:58:59.006 [TestNG-tests-1] INFO  Academy.ValidateTitle - clicked on login button of landing page
+18:59:04.960 [TestNG-tests-1] INFO  Academy.ValidateTitle - sented username and password and clicked on loginn button of login page
+18:59:05.365 [TestNG-tests-1] INFO  Academy.ValidateTitle - driver object closed

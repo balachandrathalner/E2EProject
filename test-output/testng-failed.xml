@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Login Validation(failed)" parallel="tests">
     <classes>
-      <class name="Academy.ValidateTitle">
+      <class name="Academy.HomePage">
         <methods>
           <include name="navigationHomepage"/>
           <include name="intialize"/>
           <include name="tearDown"/>
         </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- Login Validation(failed) -->
+  <test thread-count="5" name="Validation Title(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidateTitle">
+        <methods>
+          <include name="navigationHomepage"/>
+          <include name="videos"/>
+          <include name="intialize"/>
+          <include name="tearDown"/>
+        </methods>
       </class> <!-- Academy.ValidateTitle -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Validation Title(failed) -->
+  <test thread-count="5" name="Video gallery test(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.VideoGallery_Test">
+        <methods>
+          <include name="vidiogallery"/>
+          <include name="intialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.VideoGallery_Test -->
+    </classes>
+  </test> <!-- Video gallery test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

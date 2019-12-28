@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 174.092 s <<< FAILURE! - in TestSuite
-Academy.ValidateTitle.navigationHomepage  Time elapsed: 2.458 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at Academy.ValidateTitle.navigationHomepage(ValidateTitle.java:50)
-
-Academy.VideoGallery_Test.vidiogallery  Time elapsed: 44.969 s  <<< FAILURE!
-junit.framework.ComparisonFailure: expected:<...> but was:<...1>
-	at Academy.VideoGallery_Test.vidiogallery(VideoGallery_Test.java:80)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 285.554 s - in TestSuite

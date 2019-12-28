@@ -1,7 +1,6 @@
-16:33:38.131 [main] INFO  Academy.ValidateTitle - actual and expected are matched
-16:33:38.526 [main] INFO  Academy.ValidateTitle - contact is displayed
-16:33:52.354 [main] INFO  Academy.ValidateTitle - clicked on videos....
-16:33:52.864 [main] INFO  Academy.ValidateTitle - driver object is closed
-16:33:58.559 [main] INFO  Academy.ValidateTitle - intializing driver
-16:34:04.642 [main] INFO  Academy.ValidateTitle - launching url
-16:34:04.646 [main] DEBUG Academy.ValidateTitle - set the sleep for 10000 mili sec
+18:58:16.756 [TestNG-tests-1] INFO  Academy.ValidateTitle - clicked on login button of landing page
+18:58:26.170 [TestNG-tests-1] INFO  Academy.ValidateTitle - sented username and password and clicked on loginn button of login page
+18:58:32.105 [TestNG-tests-1] INFO  Academy.ValidateTitle - url is invoked
+18:58:37.700 [TestNG-tests-3] INFO  Academy.ValidateTitle - driver closed
+18:58:41.286 [TestNG-tests-1] INFO  Academy.ValidateTitle - clicked on login button of landing page
+18:58:47.119 [TestNG-tests-1] INFO  Academy.ValidateTitle - sented username and password and clicked on loginn button of login page
